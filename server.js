@@ -13,10 +13,12 @@ let initialpath = path.join(__dirname, "public");
 const db = knex({
     client: 'pg',
     connection: {
-        host: 'localhost',
-        user: 'postgres',
-        password: '12345',
-        database: 'project_hd'
+        host: 'project-hd-users-mayankraj70080-project-hd.e.aivencloud.com',
+        user: 'avnadmin',
+        password: 'AVNS_0d19dW18gxYf0V9e-aX',
+        port: 11531,
+        database: 'defaultdb',
+        ssl: require
     }
 })
 
